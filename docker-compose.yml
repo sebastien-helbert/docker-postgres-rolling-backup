@@ -1,0 +1,23 @@
+version: '2'
+services:
+  postgres:
+    image: postgres:9.6
+    volumes:
+    - ./test-db/:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_DB: test-db
+      POSTGRES_USER: changeit
+      POSTGRES_PASSWORD: changeit
+  postgres-backup:
+    build: .
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_USER: changeit
+      POSTGRES_PASSWORD: changeit
+      BACKUP_DIR: /backup
+    volumes:
+    - ./backup:/backup
+    links:
+    - postgres:db
+    depends_on:
+    - postgres
