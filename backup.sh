@@ -17,7 +17,7 @@ export PGPASSWORD=${POSTGRES_PASSWORD:-}
 
 # This dir will be created if it doesn't exist.  This must be writable by the user the script is
 # running as.
-BACKUP_DIR=${BACKUP_DIR:-/var/lib/postgresql}
+BACKUP_DIR=${BACKUP_DIR:-/var/lib/postgresql/backup}
  
 # Will produce gzipped sql file containing the cluster globals, like users and passwords, if set to "yes"
 ENABLE_GLOBALS_BACKUPS=${BACKUP_GLOBALS:-yes}
