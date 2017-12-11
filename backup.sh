@@ -96,6 +96,11 @@ function perform_backups()
  
 	echo -e "\nAll database backups done"
 }
+
+if ! mkdir -p $BACKUP_DIR; then
+    echo "Cannot create backup directory in $BACKUP_DIR. Go and fix it!" 1>&2
+    exit 1;
+fi;
  
 # MONTHLY BACKUPS
  
