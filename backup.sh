@@ -45,7 +45,7 @@ MONTHLY_BACKUP_RETENTION_DAYS=365
 function perform_backups()
 {
 	SUFFIX=$1
-	FINAL_BACKUP_DIR=$BACKUP_DIR/"`date +\%Y-\%m-\%d`$SUFFIX/"
+	FINAL_BACKUP_DIR=$BACKUP_DIR/"`date +\%Y-\%m-\%d_\%H:\%M`$SUFFIX/"
  
 	echo "Making backup directory in $FINAL_BACKUP_DIR"
  
