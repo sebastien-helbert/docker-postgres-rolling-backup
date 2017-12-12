@@ -4,7 +4,8 @@ Docker image for PostgreSQL database rolling backup
 
 # Supported tags and respective `Dockerfile` links
 
--	[`1.0`, `latest` (*1.0/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/Dockerfile)
+-	[`10.1`, `latest` (*10.1/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/10.1/Dockerfile)
+-	[`9.6`, `latest` (*9.6/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/9.6/Dockerfile)
 
 # How to use this image
 
@@ -16,7 +17,7 @@ $ docker run -e POSTGRES_HOST=my_db_host POSTGRES_USER=my_db_user POSTGRES_PASSW
 
 This image produces database backups into `/var/lib/postgresql/backup` folder. Use docker volume mapping to make dumps available to other containers or somewhere on the docker host.
 
-> This image is based on the [postgres:9.6 official docker image](https://hub.docker.com/_/postgres/) and use postgre tools provided by this image.  
+> This image is based on the [postgres:10.1 official docker image](https://hub.docker.com/_/postgres/) and use postgre tools provided by this image.  
 
 ## Using a docker volume
 

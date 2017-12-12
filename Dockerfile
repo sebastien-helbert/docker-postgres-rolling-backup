@@ -1,4 +1,4 @@
-FROM postgres:9.6
+FROM postgres:10.1
 
 MAINTAINER Sébastien HELBERT sebastien.helbert@netapsys.fr
 
