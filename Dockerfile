@@ -1,4 +1,4 @@
-FROM postgres:10.3
+FROM postgres:10.5
 
 LABEL maintainer="Sébastien HELBERT <sebastien.helbert@gmail.com>"
 
