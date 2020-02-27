@@ -58,3 +58,17 @@ Which day to take the weekly backup from (1-7 = Monday-Sunday). Will default to 
 
 Which day to take the monthly backup from. Will default to 1 if none specified.
 
+### `BACKUP_RETENTION_DAILY_BACKUP_RETENTION_DAYS` 
+
+Number of days to keep daily backups. Will default to 7 if none specified.
+*available since postgres-rolling-backup:11*
+
+### `BACKUP_RETENTION_WEEKLY_BACKUP_RETENTION_DAYS`
+
+Number of days to keep weekly backups . Will default to 31 if none specified.
+*available since postgres-rolling-backup:11*
+
+### `BACKUP_RETENTION_MONTHLY_BACKUP_RETENTION_DAYS`
+
+Number of days to keep monthly backups. Will default to 365 if none specified.
+*available since postgres-rolling-backup:11*
