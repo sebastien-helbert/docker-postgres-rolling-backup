@@ -65,7 +65,7 @@ Number of days to keep daily backups. Will default to 7 if none specified.
 
 ### `BACKUP_RETENTION_WEEKLY_BACKUP_RETENTION_DAYS`
 
-Number of days to keep weekly backups . Will default to 31 if none specified.
+Number of days to keep weekly backups. Will default to 31 if none specified.
 *available since postgres-rolling-backup:11*
 
 ### `BACKUP_RETENTION_MONTHLY_BACKUP_RETENTION_DAYS`
