@@ -4,7 +4,9 @@ Docker image for PostgreSQL database rolling backup
 
 # Supported tags and respective `Dockerfile` links
 
--	[`11`, `latest` (*11/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/11/Dockerfile)
+
+-	[`12`, `latest` (*12/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/12/Dockerfile)
+-	[`11`, (*11/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/11/Dockerfile)
 -	[`10.5`, (*10.5/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/10.5/Dockerfile)
 -	[`10.3`, (*10.3/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/10.3/Dockerfile)
 -	[`10.1`, (*10.1/Dockerfile*)](https://github.com/sebastien-helbert/postgres-rolling-backup/blob/10.1/Dockerfile)
