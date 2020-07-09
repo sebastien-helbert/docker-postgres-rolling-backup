@@ -22,7 +22,7 @@ $ docker run -e POSTGRES_HOST=my_db_host -e POSTGRES_USER=my_db_user -e POSTGRES
 
 This image produces database backups into `/var/lib/postgresql/backup` folder. Use docker volume mapping to make dumps available to other containers or somewhere on the docker host.
 
-> This image is based on the [postgres:11 official docker image](https://hub.docker.com/_/postgres/) and use postgre tools provided by this image.  
+> This image is based on the [postgres:12 official docker image](https://hub.docker.com/_/postgres/) and use postgre tools provided by this image.  
 
 ## Using a docker volume
 
